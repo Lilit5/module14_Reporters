@@ -1,0 +1,33 @@
+info: I open http://magento.loc/admin/admin/dashboard/ url
+info: I fill "admin" in field Username
+info: I fill "lilit1234" in field Password
+info: I click "Sign in" button
+info: I open http://magento.loc/admin/catalog/product/ url
+info: I click "Product Type Toggle" button
+info: I open http://magento.loc/admin/catalog/product/ url
+info: I click "Product Type Toggle" button
+info: I wait element 'Simple Product' to be visible
+info: I click Simple Product
+info: I wait element 'Product Name' to be visible
+info: I fill "simple_product1" in field Product Name
+info: I fill "123" in field Product Price
+info: I click "Save" button
+info: I wait 3 seconds
+info: I open http://magento.loc/admin/catalog/product/ url
+info: I click "Product Type Toggle" button
+info: I wait element 'Simple Product' to be visible
+info: I click Simple Product
+info: I wait element 'Product Name' to be visible
+info: I fill "simple_product2" in field Product Name
+info: I fill "124" in field Product Price
+info: I click "Save" button
+info: I wait 3 seconds
+info: I open http://magento.loc/admin/catalog/product/ url
+info: I click "Product Type Toggle" button
+info: I wait element 'Simple Product' to be visible
+info: I click Simple Product
+info: I wait element 'Product Name' to be visible
+info: I fill "simple_product3" in field Product Name
+info: I fill "125" in field Product Price
+info: I click "Save" button
+info: I wait 3 seconds

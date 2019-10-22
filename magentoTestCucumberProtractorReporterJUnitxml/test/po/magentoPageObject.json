@@ -1,0 +1,80 @@
+{
+    "BasePage": {
+        "Logged In UserName": {
+            "isCollection": false,
+            "xpath": true,
+            "selector": "//div[contains(@class,'admin-user')]"
+        },
+        "Sign Out": {
+            "isCollection": false,
+            "xpath":true,
+            "selector": "//a[contains(text(),'Sign Out')]"
+        }
+    },
+    "LoginPage": {
+        "Username": {
+            "isCollection": false,
+            "xpath": false,
+            "selector": "#username"
+        },
+        "Password": {
+            "isCollection": false,
+            "xpath": false,
+            "selector": "#login" 
+        },
+        "Sign in": {
+            "isCollection": false,
+            "xpath": false,
+            "selector": ".actions .action-primary" 
+        },
+        "Logged In Url": {
+            "isCollection": false,
+            "xpath": false,
+            "selector": "http://magento.loc/admin/admin/dashboard/"
+        }
+    },
+    "ProductEditPage": {
+        "Product Name": {
+            "isCollection": false,
+            "xpath": true,
+            "selector": "//input[@name='product[name]']" 
+        },
+        "Product Price": {
+            "isCollection": false,
+            "xpath": true,
+            "selector": "//input[@name='product[price]']" 
+        },
+        "Save": {
+            "isCollection": false,
+            "xpath": false,
+            "selector": "#save-button" 
+        },
+        "Product Name Label": {
+            "isCollection": false,
+            "xpath": true,
+            "selector": "//h1[contains(text(),'simple_product3')]" 
+        }
+    },
+    "ProductsGridPage": {
+        "Product Type Toggle": {
+            "isCollection": false,
+            "xpath": true,
+            "selector": "//button[contains(@class,'action-toggle')]" 
+        },
+        "Simple Product": {
+            "isCollection": false,
+            "xpath": true,
+            "selector": "//span[contains(text(),'Simple Product')]" 
+        },
+        "Created Products": {
+            "isCollection": true,
+            "xpath": true,
+            "selector": "//table[contains(@class,'data-grid-draggable') and @data-role='grid']//tr" 
+        },
+        "Product In Grid": {
+            "isCollection": false,
+            "xpath": true,
+            "selector": "//td/div[contains(text(),'simple_product')]" 
+        }
+    }
+}

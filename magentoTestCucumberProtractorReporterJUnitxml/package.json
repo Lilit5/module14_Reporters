@@ -1,0 +1,30 @@
+{
+    "name": "magento.1_protractor",
+    "version": "1.0.0",
+    "main": "spec.js",
+    "dependencies": {
+        "protractor": "5.4.2",
+        "protractor-cucumber-framework": "^6.1.3",
+        "chai": "^4.2.0",
+        "chai-as-promised": "^7.1.1",
+        "cucumber": "^5.1.0",
+        "cucumber-html-reporter": "^5.0.2",
+        "cucumber-pretty": "^1.5.2",
+        "fs-extra": "^8.1.0",
+        "winston": "^3.2.1",
+        "yargs": "^13.3.0",
+        "cucumber-junit-convert": "^1.1.0"
+    },
+    "scripts": {
+        "remove-logs": "node ./test/config/utils/cleanup.js",
+        "postinstall": "webdriver-manager update --versions.standalone=3.4.0 --versions.chrome=77.0.3865.40",
+        "prestart-webdriver": "webdriver-manager update",
+        "start-webdriver": "webdriver-manager start",
+        "pretest": "npm run remove-logs",
+        "test": "protractor ./test/config/protractor.config.js",
+        "test:generate-report": "node ./test/e2e/utils/reporter.js"
+    },
+    "author": "Lilit Sargsyan",
+    "license": "ISC",
+    "description": "This test creates simple product on Magento admin page"
+}

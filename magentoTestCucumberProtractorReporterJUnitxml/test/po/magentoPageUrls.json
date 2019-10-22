@@ -1,0 +1,15 @@
+{
+    "BasePage": {
+        "url": "http://magento.loc/admin/admin/dashboard/"
+    },
+    "LoginPage": {
+        "url": "http://magento.loc/admin/admin/"
+    },
+    "ProductsGridPage": {
+        "url": "http://magento.loc/admin/catalog/product/"
+    },
+    "ProductEditPage": {
+        "url": "http://magento.loc/admin/catalog/product/new/set"
+    }
+
+}

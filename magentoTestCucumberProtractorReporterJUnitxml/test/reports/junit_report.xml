@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Login and Simple Product creation" time="40.494" tests="5" failures="1" errors="0" skipped="0">
+    <testcase name="Verify user can login successfully if already not logged in" classname="login-and-simple-product-creation;verify-user-can-login-successfully-if-already-not-logged-in" time="4.859"/>
+    <testcase name="This is scenario will fail to check the screenshot taking mechanism" classname="login-and-simple-product-creation;this-is-scenario-will-fail-to-check-the-screenshot-taking-mechanism" time="2.188">
+      <failure message="TypeError: Cannot read property 'xpath' of undefined&#xA;    at getPageObjectElement (D:\JS TA\PushHere\MyProjs\magentoTestCucumberProtractorReporterJUnitxml\test\step_definitions\utils\stepFunctions.js:8:24)&#xA;    at World.When (D:\JS TA\PushHere\MyProjs\magentoTestCucumberProtractorReporterJUnitxml\test\step_definitions\actionSteps\browserInteractions.js:14:19)"/>
+    </testcase>
+    <testcase name="Crate Simple Product" classname="login-and-simple-product-creation;crate-simple-product" time="14.046"/>
+    <testcase name="Crate Simple Product" classname="login-and-simple-product-creation;crate-simple-product" time="10.386"/>
+    <testcase name="Crate Simple Product" classname="login-and-simple-product-creation;crate-simple-product" time="9.015"/>
+  </testsuite>
+</testsuites>
