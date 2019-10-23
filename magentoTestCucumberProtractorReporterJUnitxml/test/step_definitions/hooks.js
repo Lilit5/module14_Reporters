@@ -9,4 +9,7 @@ After(async function (testCase) {
         let decodedImage = new Buffer(screenShot, 'base64');
         return this.attach(decodedImage, 'image/png');
     }
+    const screenShot = await browser.takeScreenshot();
+    let decodedImage = new Buffer(screenShot, 'base64');
+    return this.attach(decodedImage, 'image/png');
 });

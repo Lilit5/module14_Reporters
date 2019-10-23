@@ -17,5 +17,6 @@ Changes added to the project according to the module 14 home task
 
 1. Configured your framework to save test run results in a JSON file.
 2. Added ability to create html report on geerated JSON file.
-3. Cucumber-pretty is used in framework.
-4. A junit xml report is generating after test execution. 
+3. Added ability to take a screenshot after each test, and also when scenario fails.
+4. Cucumber-pretty is used in framework.
+5. A junit xml report is generating after test execution. 
